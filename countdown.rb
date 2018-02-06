@@ -9,6 +9,9 @@ def countdown(seconds)
 end
 
 def countdown_with_sleep(seconds)
-
+  while seconds > 0
+    #wait
+    seconds -=1
+  end
 
 end
